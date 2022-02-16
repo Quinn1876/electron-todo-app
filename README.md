@@ -6,13 +6,28 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+### `yarn start:web`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+### `yarn start`
+Starts the electron app
+
+### `yarn migrate:up`
+Applies the oldest unapplied migration
+
+### `yarn migrate:down`
+Removes the most recent migration
+
+### `yarn migrate:up:all`
+Applies all unapplied migrations
+
+### `yarn migrate:create -- <migration name>
+creates a new migration with name "migration name"
 
 ### `yarn test`
 
